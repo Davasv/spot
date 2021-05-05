@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    background: black;
+    font-family: sans-serif;
+    color: white;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    height: 100%;
+}
+
+ nav {
+    position: absolute;
+    right: 0;
+    width: 34%;
+    padding: 20px 0px;
+}
+
+ ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+a {
+    color: #72727a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.link {
+    color: black;
+    background: #8e8e98;
+    padding: 10px 10px;
+    border-radius: 6px;
+}
+
+.midle {
+    position: absolute;
+    top: 250px;
+    left: 210px;
+}
+
+.mid-top > h1 {
+    font-size: 112px;
+}
+
+.mid-top > h3 {
+    font-size: 22px;
+}
+
+.soon {
+    background: #742EFF;
+    padding: 3px 5px;
+    border-radius: 4px;
+    color: black;
+}
+
+.mid-bottom {
+    margin-top: 150px;
+}
+
+.mid-bottom > p {
+    color: #47474c;
+}
+
+.gdpr {
+    color: #8e8e98;
+    font-weight: 600;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    border: none;
+    background: rgba(142, 142, 152, 0.2);
+    width: 340px;
+    height: 50px;
+    border-radius: 8px 0px 0px 8px;
+    color: white;
+    font-size: 1.5em;
+}
+
+.btn {
+    background:#47474c;
+    width: 100px;
+    height: 50px;
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+.bottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+        padding: 30px 30px 30px 650px;
+}
+
+.bottom-text{
+    background: #8E8E98;
+    border: 1px solid #8E8E98;
+    border-radius: 6px;
+    color: #1c1c1e;
+    font-size: 13px;
+    padding: 5px 5px;
+    margin-top: 20px;
+}
+
+.cookie {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.rectangle {
+    width: 60px;
+    height: 60px;
+    background: #47474C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
